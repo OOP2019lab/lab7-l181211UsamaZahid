@@ -229,8 +229,7 @@ void main()
 	**** Complete the prototype of function in line 4 and body after main() function in given space
 	(you cannot change the name and return typeof function)
 	*/
-	string type = "withdraw";
-	makeTransaction(dyarr, 4, 5, 6000, type);
+	
 
 	/********************************TASK 8*************************************
 	Write a function that takes array of pointers to objects, of bankAccount type, ID, amount and transaction type as input
@@ -242,7 +241,8 @@ void main()
 	
 	Invoke this function for array create in step 5, ID=5 and amount=6000 and type= withdraw
 	*/
-
+	string type = "withdraw";
+	makeTransaction(dyarr, 4, 5, 6000, type);
 
 	/********************************TASK 9*************************************
 	//Write a function that takes an array of pointers to object as input and 
@@ -251,7 +251,7 @@ void main()
 	
 	//Invoke this function for array created in step 5
 	*/
-
+	deleteAccounts(dyarr, 4);
 	/********************************TASK 10*************************************
 	delete all the memory you have allocate anywhere in your code using only delete or delete[] operations
 	*/
